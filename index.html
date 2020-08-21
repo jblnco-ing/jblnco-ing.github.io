@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        // document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
+        // document.cookie = "Set-Cookie", "HttpOnly;Secure;SameSite=Strict";
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function () {
+            OneSignal.init({
+                appId: "a9fd0225-cae4-4691-bb60-3c5b975db9b8",
+            });
+        });
+    </script>
+</head>
+
+<body>
+    Hola OneSignal
+</body>
+
+</html>
